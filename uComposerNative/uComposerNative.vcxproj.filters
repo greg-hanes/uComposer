@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ADSREnvelope.cpp">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDeviceInterface.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenGraphVisitor.cpp">
+      <Filter>Source\Core\EffectGraph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackController.cpp">
+      <Filter>Source\Core\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCollection.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectGraph.cpp">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackNote.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Tempo.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockTransition.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DrumSynth.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="BiquadFilter.cpp">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondOrderButterworthBPF.cpp">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="TB303LPF.cpp">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="TB303Synth.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularBuffer.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionList.cpp">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectData.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomationLane.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteLane.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioScratchPad.cpp">
+      <Filter>Source\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlMessage.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMessage.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardEffects.cpp">
+      <Filter>Source\Standard Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEffect.cpp">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="MixerEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoSynthEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="SequencerEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArpeggiatorEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlTrackSource.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteTrackSource.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteTrack.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlTrack.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockPlayer.cpp">
+      <Filter>Source\Core\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphPlayer.cpp">
+      <Filter>Source\Core\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="SynthComponent.cpp">
+      <Filter>Source\Core\Synthesis\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TB303LPFComponent.cpp">
+      <Filter>Source\Core\Synthesis\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ADSREnvelopeComponent.cpp" />
+    <ClCompile Include="KarplusStrongString.cpp">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="TB303FilterEffect.cpp">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalWaveGuide.cpp">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="BiquadDouble.cpp">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackTime.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TempoControlPoint.cpp">
+      <Filter>Source\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TempoControlTrack.cpp">
+      <Filter>Source\Core\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Oscillator.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSREnvelope.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="OscillatorFunctions.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegateBind.h">
+      <Filter>FastDelegates</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate.h">
+      <Filter>FastDelegates</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDeviceInterface.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MemUtil.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FlattenGraphVisitor.h">
+      <Filter>Source\Core\EffectGraph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackController.h">
+      <Filter>Source\Core\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCollection.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectGraph.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackNote.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tempo.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockTransition.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceProcessor.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="DrumSynth.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="BiquadFilter.h">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondOrderButterworthBPF.h">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="TB303LPF.h">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="TB303Synth.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoProjectData.h">
+      <Filter>Source\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="uComposer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionList.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="INodeVisitor.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectData.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomationLane.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteLane.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="VecUtil.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMessage.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EventCommon.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMessage.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectDescriptor.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPackage.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardEffects.h">
+      <Filter>Source\Standard Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="IEffect.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEffect.h">
+      <Filter>Source\Core\EffectGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectList.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="MixerEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoSynthEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="SequencerEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArpeggiatorEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlTrackSource.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteTrackSource.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteTrack.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlTrack.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPlayer.h">
+      <Filter>Source\Core\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphPlayer.h">
+      <Filter>Source\Core\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="SynthComponent.h">
+      <Filter>Source\Core\Synthesis\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TB303LPFComponent.h">
+      <Filter>Source\Core\Synthesis\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSREnvelopeComponent.h">
+      <Filter>Source\Core\Synthesis\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="KarplusStrongString.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayLine.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="TB303FilterEffect.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalWaveGuide.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="DWGPiano.h">
+      <Filter>Source\Core\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="BiquadDouble.h">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstOrderLowpass.h">
+      <Filter>Source\Core\Synthesis\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoSynth.h">
+      <Filter>Source\Standard Effects\EffectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackTime.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSignature.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TempoControlPoint.h">
+      <Filter>Source\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TempoControlTrack.h">
+      <Filter>Source\Core\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FastDelegates">
+      <UniqueIdentifier>{b5ddf35d-bfb1-439f-91a7-3871d9d1f8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{cdbb92c3-379e-452f-8b0f-9dd4c8c36894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Demo">
+      <UniqueIdentifier>{d158769b-00a6-4b58-af06-c82aaaf7101d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{03cbab40-713c-4f47-9f21-f40bf92b0c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Synthesis">
+      <UniqueIdentifier>{1f9b4c0a-10a9-4066-a626-4ae66c63cd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Synthesis\Filters">
+      <UniqueIdentifier>{6c5eba9e-fb2e-4bc6-a0f7-cb43523f78c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\EffectGraph">
+      <UniqueIdentifier>{3fa43ea6-3567-42e6-afcd-c5eb2f121a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\EffectGraph\Visitors">
+      <UniqueIdentifier>{78ad4dc6-e1ec-4f75-818b-9b4dfdc1f2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Playback">
+      <UniqueIdentifier>{84cfb459-bd75-447b-be47-6b9dbe1222e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Data">
+      <UniqueIdentifier>{e123a7c8-6e1e-4c98-8444-2b695eab3bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Common">
+      <UniqueIdentifier>{35ba6541-f50a-46ba-ba20-62b5ed8ef00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{f2930f4f-b098-47c3-b07e-3b66ce2ec8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Standard Effects">
+      <UniqueIdentifier>{779de080-c5a4-4996-b2e1-0f14ca8b5dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Standard Effects\EffectNodes">
+      <UniqueIdentifier>{335606dc-e0b7-489b-b9b8-72ce0909708f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Synthesis\Components">
+      <UniqueIdentifier>{2fffc1c0-1e6e-4d1e-9166-84f86bfce7ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

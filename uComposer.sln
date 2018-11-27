@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uComposer", "uComposerManaged\uComposer.csproj", "{D7C26E81-67F6-413E-8A7D-47994CA9973A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25} = {C01430B7-320A-415F-9FE7-62E89B0F1F25}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uComposer.Native", "uComposerNative\uComposerNative.vcxproj", "{C01430B7-320A-415F-9FE7-62E89B0F1F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uComposer.ScratchPad", "uComposer.ScratchPad\uComposer.ScratchPad.csproj", "{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		TestNative|x64 = TestNative|x64
+		TestNative|x86 = TestNative|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Debug|x64.ActiveCfg = Debug|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Debug|x64.Build.0 = Debug|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Debug|x86.ActiveCfg = Debug|x86
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Debug|x86.Build.0 = Debug|x86
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Release|x64.ActiveCfg = Release|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Release|x64.Build.0 = Release|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Release|x86.ActiveCfg = Release|x86
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.Release|x86.Build.0 = Release|x86
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.TestNative|x64.ActiveCfg = TestNative|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.TestNative|x64.Build.0 = TestNative|x64
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.TestNative|x86.ActiveCfg = TestNative|x86
+		{D7C26E81-67F6-413E-8A7D-47994CA9973A}.TestNative|x86.Build.0 = TestNative|x86
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Debug|x64.ActiveCfg = Debug|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Debug|x64.Build.0 = Debug|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Debug|x86.ActiveCfg = Debug|Win32
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Debug|x86.Build.0 = Debug|Win32
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Release|x64.ActiveCfg = Release|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Release|x64.Build.0 = Release|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Release|x86.ActiveCfg = Release|Win32
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.Release|x86.Build.0 = Release|Win32
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.TestNative|x64.ActiveCfg = TestNative|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.TestNative|x64.Build.0 = TestNative|x64
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.TestNative|x86.ActiveCfg = TestNative|Win32
+		{C01430B7-320A-415F-9FE7-62E89B0F1F25}.TestNative|x86.Build.0 = TestNative|Win32
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Debug|x64.ActiveCfg = Debug|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Debug|x64.Build.0 = Debug|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Debug|x86.ActiveCfg = Debug|x86
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Debug|x86.Build.0 = Debug|x86
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Release|x64.ActiveCfg = Release|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Release|x64.Build.0 = Release|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Release|x86.ActiveCfg = Release|x86
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.Release|x86.Build.0 = Release|x86
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.TestNative|x64.ActiveCfg = TestNative|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.TestNative|x64.Build.0 = TestNative|x64
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.TestNative|x86.ActiveCfg = TestNative|x86
+		{A9A1A245-4AC0-4CB5-BDDF-C044DEC1EBC8}.TestNative|x86.Build.0 = TestNative|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
