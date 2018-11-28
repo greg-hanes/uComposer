@@ -1,0 +1,6 @@
+packages/
+uComposer.ScratchPad/obj/
+uComposerManaged/bin/
+uComposerManaged/obj/
+uComposerNative/x64/
+x64/
